@@ -4,15 +4,22 @@
   "description": "backend for technotes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "Ritik Gupta",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
     "env": "^0.0.2",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.1.0",
-    "nodemon": "^3.0.1"
+    "mongoose": "^7.6.2",
+    "mongoose-sequence": "^5.3.1",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
   }
 }
